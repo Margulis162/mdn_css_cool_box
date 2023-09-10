@@ -15,8 +15,9 @@ body{
  align-items: center;
  justify-content:center;
  margin-block: 60px;
+ color :rgb(66, 5, 86);
  margin-inline: auto;
- font-size: 1.7rem; /*should make it 17px*/
+ font-size: 3rem; /*should make it 17px*/
  border:3px solid rgb(66, 5, 86);
  /* border-radius: 8px; */
  background-color: rgb(207, 207, 96); 
@@ -25,4 +26,7 @@ body{
   
  inset 1px 1px 4px rgba(247, 250, 224, 0.3);
  /* linear-gradient(135deg, rgba(186, 145, 84, 0.5), rgba(30, 194, 41, 0.4), rgba(168, 234, 222, 0.8), rgba(5, 71, 9, 0.6)); */
+}
+.cool_box:hover{
+  font-size: 4rem;
 }
