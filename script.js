@@ -1,5 +1,6 @@
 // var
-const box = document.getElementById("cool_box");
+const box = document.getElementsByClassName("cool_box");
+console.log(box);
 let shadow ="";
 // f(x)
 function long_shadow(){
@@ -11,7 +12,9 @@ function long_shadow(){
     }
     shadow = shadow.slice(0, -1);
     console.log(shadow);
-    box.style.boxShadow = shadow;
+    box[0].style.boxShadow = shadow;
+    box[1].style.boxShadow = shadow;
+    box[2].style.boxShadow = shadow;
 }
 
 
